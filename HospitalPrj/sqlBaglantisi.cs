@@ -11,7 +11,8 @@ namespace HastaneProje
     {
         public SqlConnection baglanti()
         {   //SQL bağlantısı için SqlConnection sınıfı oluşturuldu.
-            SqlConnection baglan = new SqlConnection("Data Source=K-T;Initial Catalog=HastaneProje;Integrated Security=True");
+            
+            SqlConnection baglan = new SqlConnection("Data Source=;Initial Catalog=HastaneProje;Integrated Security=True");
             baglan.Open();
             return baglan;
         }
