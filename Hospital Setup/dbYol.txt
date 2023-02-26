@@ -1,1 +1,0 @@
-Data Source=K-T;Initial Catalog=GProjeHastane;Integrated Security=True
